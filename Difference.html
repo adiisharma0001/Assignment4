@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html style="color:rgb(151, 3, 3)">
+  <head>
+    <script>
+      function convert() {
+        var fahRenheit =  document.getElementById("input").value - 13;
+
+        document.getElementById("result").innerHTML = fahRenheit;
+      }
+    </script>
+  </head>
+  <body>
+    <p style="color:rgb(151, 3, 3)">Enter the Number :</p>
+    <input id="input" />
+    <button onclick="convert()" style="color:rgb(20, 10, 201)">Get Answer</button>
+    <p id="result" style="color:rgb(8, 124, 77)"></p>
+  </body>
+</html>
